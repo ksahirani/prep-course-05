@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General Styles */
+body {
+    
+    font-family: Arial, sans-serif;
+    color: #ff7f50;
+}
+
+/* Navigation */
+nav {
+    background-color: goldenrod;
+    padding: 8px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Headings */
+
+#landing {
+	padding: 50px;
+	text-align: center;
+	background-color: darkblue;
+}
+
+#landing h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#landing h2 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#landing h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Search Bar */
+#landing input {
+    display: inline-block;
+    width: 250px;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#landing button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#landing button:hover {
+    background-color: darkred;
+}
+
+.card {
+	padding: 20px;
+	text-align: center;
+}
+
+.card-img {
+	height: 300px;
+	width: 300px;
+	padding-top:30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+footer {
+	text-align: center;
+	padding: 8px;
+	background-color: goldenrod;
+	font-weight: bold;
+	color: green;
+}
